@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Orbitron&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap');
+
+body {
+    background: #000 !important;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.parallax-window {
+    min-height: 60vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-window h2 {
+    position: relative;
+    text-align: center;
+    font-family: 'orbitron', sans-serif;
+    vertical-align: middle;
+    z-index: 3;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.parallax-window ul {
+    position: relative;
+    z-index: 3;
+}
+
+.parallax-window ul li {
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    list-style: none;
+    margin-top: 10%;
+}
+
+.parallax-window ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+}
+
+.titles h1 {
+    color: #fff;
+    margin-top: 4%;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.border {
+    width: 150px;
+    height: 3px;
+    background: #3373cb;
+    margin: 20px auto;
+    box-shadow: 0 0 black;
+}
+
+.events-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 3% 0%;
+    margin-top: 5%;
+    background-image: url(../images/background/events.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.events-container a {
+    transition: 0.3s ease-in-out;
+}
+
+.techtk,
+.nontechtk,
+.sportstk {
+    width: 30%;
+    display: inline-block;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.techtk h2,
+.nontechtk h2,
+.sportstk h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-bottom: 8%;
+
+}
+
+.events-container a:hover {
+    background: #000;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.techtk img,
+.nontechtk img,
+.sportstk img {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 12%;
+}
+
+.techtk a,
+.nontechtk a,
+.sportstk a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 4% 6%;
+}
+
+.seminar-container{
+    width: 100%;
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 8%;
+
+}
+
+.main {
+    text-align: center;
+}
+
+.main h2 {
+    font-family: 'Exo', sans-serif;
+}
+
+.main .card {
+    width: 20%;
+    display: inline-block;
+    box-shadow: 1px 1px 10px #3498DB;
+    border-radius: 5px;
+    margin: 2%;
+    background-color: #fff;
+}
+
+.main .image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.main .title {
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+.main h2 {
+    font-size: 20px;
+    color: #000;
+}
+
+.main .des {
+    padding: 3px;
+    text-align: center;
+
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.main button {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: white;
+    border: 1.5px solid black;
+    padding: 4% 10%;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.main button:hover {
+    background-color: #3498DB;
+    color: #fff;
+    border-color: #3498DB;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.event-cont {
+
+    font-family: 'Exo', sans-serif;
+
+}
+
+.event-cont h2 {
+    margin: 3% 0% 0% 10%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: lighter;
+    color: #3498DB;
+}
+
+.event-cont p {
+    color: #fff;
+    width: 80%;
+    margin: 0.5% 0% 0% 10%;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+}
+
+.event-cont ul {
+    margin: 0.5% 0% 0% 10%;
+}
+
+.event-cont ul li {
+    color: #fff;
+    list-style-type: square;
+    font-size: 18px;
+    margin: 0.5% 0% 0% 5%;
+    width: 83%;
+}
+
+.fees-team {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding: 5%;
+
+    text-align: right;
+}
+
+.saviseminar img{
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.img-iot img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+
+.fees,
+.team {
+    width: 49.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+.fees-team i {
+    color: #3498DB;
+    font-size: 45px;
+}
+
+.fees h2,
+.team h2 {
+    color: #000;
+    font-family: 'Exo', sans-serif;
+    margin-top: 3%;
+}
+
+.fees p,
+.team p {
+    color: #3498DB;
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+}
+
+
+.register {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.register p{
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+}
+
+.register a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 1.5% 4%;
+    font-family: 'Exo', sans-serif;
+    transition: 0.2s ease-in-out;
+
+}
+
+.register a:hover {
+    background: #3498DB;
+    color: #000;
+    font-weight: bold;
+    border-color: #3498DB;
+}
+
+.oth {
+
+    margin-top: 5%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oth-photo,
+.oth-details {
+    width: 49%;
+    float: left;
+    margin-top: 5%;
+}
+
+.oth-photo img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+
+.oth-details ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+}
+
+.oth-details ul li h2 {
+    color: #3498DB;
+    font-family: 'Exo', sans-serif;
+    font-weight: lighter;
+    margin-top: 5%;
+}
+
+.register1,
+.register2,
+.register3 {
+    margin: 0%;
+}
+
+.about p {
+    color: #fff;
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+
+
+.name-card {
+    width: 330px;
+    background-color: #fff;
+    padding: 15px;
+   margin-left: 30%;
+    margin-top: 5%;
+}
+
+.name-card h2 {
+    margin-top: 4%;
+    font-family: 'Exo', sans-serif;
+}
+
+.name-card p {
+    font-family: 'Exo', sans-serif;
+    color: #3498DB;
+    font-weight: 600;
+}
+
+.name-card img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.name-card ul li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.name-card ul li a {
+    text-decoration: none;
+    color: #3498DB;
+    font-family: 'Exo', sans-serif;
+}
+
+
+
+.contact-info{
+    float: left;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.contact-info ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Exo',sans-serif;
+    font-size: 22px;
+}
+.contact-info ul li{
+list-style: none;
+}
+.contact-info h1{
+    font-family: 'Exo',sans-serif;
+    color: #3498DB;
+    margin: 4% 0%;
+}
+.mapouter{
+    margin-top: 10%;
+}
+.contact-details{
+    float: left;
+    width: 50%;
+}
+
+.campus{
+    text-align: center;
+}
+ 
+.campus p{
+    color: #999;
+    font-size: 24px;
+    width: 85%;
+    font-family: 'Exo',sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 2em;
+}
+
+
+.campus ul li{
+    color: #999;
+    font-size: 24px;
+    width: 90%;
+    font-family: 'Exo',sans-serif;
+    list-style: square;
+    text-align: left !important;
+}
+.campus ul{
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+
+.campus a{
+    text-align: center;
+    font-family: 'Exo',sans-serif;
+    color: #fff;
+text-decoration: none;
+border: 2px solid #fff;
+padding: 1.5% 4%;
+transition: 0.3s ease-in-out;
+}
+
+
+.campus a:hover{
+    color: #000;
+    background-color: #3498DB;
+    border-color: #3498DB;
+    font-weight: bold;
+}
+
+.titles img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titles p{
+    text-align: center;
+    color: #3498DB;
+    margin-top: 1%;
+    font-size: 25px;
+    font-family: 'Exo',sans-serif;
+    font-weight: bold;
+}
+
+.sponsors-contianer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sponsors-contianer img{
+   margin: 2% 2%;
+}
+
+.coordinator{
+    padding: 7% 3%;
+    background-color: #333;
+}
+
+.team-section{
+    width: 23.7%;
+    display: inline-block;
+    background: #000;
+color: #fff;
+margin: 0% 0.5%;
+font-family: 'Exo',sans-serif;
+}
+
+
+.team-section img{
+    width: 92%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.team-info{
+    margin: 4%;
+    text-align: center;
+}
+
+.team-info p{
+    color: #3498DB;
+}
+
+.team-container{
+    margin-top: 3%;
+}
+
+.bg-team{
+    background-color: #222;
+   
+}
+  
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .parallax-window h2 {
+        font-size: 45px;
+    }
+
+    .techtk,
+    .nontechtk,
+    .sportstk {
+        width: 45%;
+    }
+
+    .sportstk {
+        width: 45%;
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .techtk h2,
+    .nontechtk h2,
+    .sportstk h2 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 120%;
+    }
+
+    .techtk img,
+    .nontechtk img,
+    .sportstk img {
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 12%;
+    }
+
+    .techtk a,
+    .nontechtk a,
+    .sportstk a {
+        padding: 3% 5%;
+        font-size: 98%;
+    }
+
+    .main .card {
+        width: 40%;
+    }
+
+    .bg-team{
+        background-color: #222;
+       
+    }
+.register1,
+.register2,
+.register3 {
+    margin-top: 13%;
+}
+
+.name-card {
+    width: 330px;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-section{
+    width: 47%;
+    margin-top: 10%;
+    display: inline-block;
+    background: #000;
+color: #fff;
+margin: 0% 0.5%;
+font-family: 'Exo',sans-serif;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .parallax-window ul h2 {
+        font-size: 23px;
+    }
+
+    .bg-team{
+        background-color: #222 !important;
+        width: 99% !important;
+    }
+
+    .parallax-window ul li {
+        font-size: 19px;
+    }
+
+    .techtk,
+    .nontechtk,
+    .sportstk {
+        width: 100%;
+        margin-top: 8%;
+    }
+
+    .img-iot img{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 5%;
+        border: 20px solid #333;
+    }
+
+    .sportstk {
+        padding-bottom: 8%;
+    }
+
+    .main .card {
+        width: 80%;
+        margin-top: 8%;
+    }
+
+    .titles h1 {
+        font-size: 120%;
+    }
+
+    .fees,
+    .team {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 15%;
+    }
+    .saviseminar img{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        }
+    .fees-team {
+        margin-top: 10%;
+        text-align: center;
+        padding-top: 0%;
+    }
+
+    .register {
+        padding: 10%;
+
+    }
+
+    .register a {
+        padding: 4% 10%;
+
+    }
+
+    .register span {
+        margin-bottom: 10%;
+    }
+
+    .oth {
+        margin-top: 14%;
+        margin-right: auto;
+    }
+
+    .oth-photo,
+    .oth-details {
+        float: none;
+        width: 100%;
+        margin-top: 14%;
+       
+    }
+
+    .register1,
+    .register2,
+    .register3 {
+        margin-top: 13%;
+    }
+    .contact-info ul li a{
+        font-size: 16px;
+    }
+    .contact-details{
+        width: 100%;
+    }
+   
+
+    .name-card{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact-info{
+        margin-left:8%;
+    }
+    
+.about p {
+    font-size: 20px;
+    width: 85%;
+}
+.campus p{
+    text-align: center;
+    text-indent: 0;
+    font-size: 18px;
+}
+
+.campus ul li{
+ 
+    width: 100%;
+   
+}
+
+.campus ul li{
+   
+    font-size: 18px;
+    width: 90%;
+    font-family: 'Exo',sans-serif;
+}
+
+.campus ul{
+    margin-bottom: 15%;
+}
+
+.campus a{
+    
+padding: 4% 10%;
+}
+
+.campus a:hover{
+    color: #000;
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.team-section{
+    
+    width: 98%;
+    display: inline-block;
+    background: #000;
+color: #fff;
+margin: 6% 0.5%;
+font-family: 'Exo',sans-serif;
+}
+}

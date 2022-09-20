@@ -1,0 +1,463 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    line-height: 1.4em;
+}
+
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.4em;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%), url("images/theme/bg1.png") right no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15rem;
+    background: url("images/theme/wave.png") center no-repeat;
+    background-size: cover;
+}
+
+.main-msg {
+    width: 100%;
+    max-width: 60rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    transform: translateY(30%);
+}
+
+.main-msg h3 {
+    font-size: 2rem;
+}
+
+.main-msg h1 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+.main-msg h2 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.main-msg p {
+    text-transform: lowercase;
+}
+
+.main-msg p n {
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: #eb648c;
+    border-radius: 2rem;
+    color: #fafafa;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1.2rem 2.5rem;
+    text-transform: uppercase;
+    transition: background-color 650ms;
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    background-color: #ce587b;
+}
+
+.logo {
+    margin-top: -30rem;
+    margin-left: 85rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.exp-outdoors {
+    padding: 0;
+}
+
+.title-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.title-heading h1 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 2.5rem;
+    margin: .5rem 0 1rem;
+}
+
+.title-heading p {
+    text-transform: uppercase;
+}
+
+.act-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+}
+
+.grid {
+    height: 30rem;
+    padding: 3rem;
+    color: #fafafa;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.grid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 10%, rgba(72, 56, 149, 0.8) 50%);
+    z-index: -1;
+}
+
+ul li {
+    line-height: 2rem;
+}
+
+.star {
+    background: url(images/theme/star1.png) center no-repeat;
+}
+
+.gazle {
+    background: url(images/theme/gazle1.png) center no-repeat;
+}
+
+.moon {
+    background: url(images/theme/moon1.png) center no-repeat;
+}
+
+.grid h1 {
+    font-size: 1.7rem;
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+
+
+.comp {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%), url("images/theme/bg3.png") center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.comp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    background: url("images/theme/wave2.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.main-box {
+    width: 100%;
+    color: #fafafa;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-align: center;*/
+}
+
+.content {
+    width: 100%;
+    max-width: 60rem;
+    padding: 0 3rem;
+    margin-bottom: 0rem;
+    position: relative;
+}
+
+.content h2 {
+    font-size: 3rem;
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 2rem;
+}
+
+.pic {
+    margin-top: -35rem;
+    transform: translateX(130%);
+    width: 54rem;
+    height: 54rem;
+}
+
+.title-head {
+    text-align: center;
+    margin-bottom: 5rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.title-head h2 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: .5rem 0 1rem;
+}
+
+.title-head h4 {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.9rem;
+    margin: 0 0 1rem;
+}
+
+.title-head h5 {
+    text-align: left;
+    font-size: 1.7rem;
+    margin: .5rem 0 1rem;
+
+}
+
+.border {
+    border-radius: 5rem;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%);
+    margin: 20px auto;
+    box-shadow: 0 0 black;
+}
+
+.glmp {
+    width: 100%;
+    margin-top: -8rem;
+}
+
+.glmp h1{
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: .5rem 0 1rem;
+    background: -webkit-linear-gradient(120deg, #ff00f7,#00d0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.demo-1 {
+    text-align: center;
+}
+
+.project {
+    width: 33%;
+    float: left;
+    padding: 15px;
+    z-index: 10;
+    font-family: 'Exo', sans-serif;
+}
+
+.project-list:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.project__image {
+    display: block;
+    position: relative;
+}
+
+.project__image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project__image:after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    transition: opacity .3s ease;
+    opacity: 0;
+}
+
+.project__card {
+    position: relative;
+    transition: box-shadow .3s ease;
+    box-shadow: 0 10px 30px transparent;
+}
+
+.project__card.hover-in {
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+}
+
+.project__card.hover-out {
+    transition: -webkit-transform .2s ease-in;
+    transition: transform .2s ease-in;
+    transition: transform .2s ease-in, -webkit-transform .2s ease-in;
+}
+
+.project:hover .project__card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project:hover .project__image:after {
+    opacity: 0;
+}
+
+.project:hover {
+    border-width: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.social-media {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 30rem;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0% 5%;
+}
+
+footer {
+    padding: 2rem 0;
+    background-color: #d7d4ed;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/*.exp-outdoors{*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .logo {
+        margin-top: -42rem;
+        margin-left: -1rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .hero {
+        height: 110vh;
+    }
+
+    .social-media {
+        padding-left: 5%;
+    }
+
+    .comp {
+        height: 144vh;
+    }
+
+    .content p {
+        margin-top: 0rem;
+        font-size: 2rem;
+    }
+
+    .pic {
+        margin-top: -1rem;
+        transform: translateX(10.5%);
+        width: 32rem;
+        height: 35rem;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .main-box {
+        top: 58%;
+    }
+}
+
+
+@media only screen and (min-width: 450px) and (max-width: 1024px) {
+    .logo {
+        margin-top: -31rem;
+        margin-left: -1rem;
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .pic {
+        margin-top: 0rem;
+        transform: translateX(25%);
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .project {
+        width: 50%;
+    }
+
+    .social-media {
+        padding-left: 15%;
+    }
+}
